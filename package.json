@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "Node project to run process in parrallel",
   "main": "index.js",
-  "scripts": {
-    "test": "npm test"
-  },
   "repository": {
     "type": "git",
-    "url": "node-runner"
+    "url": "https://github.com/kmilyas/node-runner"
   },
   "author": "Ilyas Khawaja",
   "license": "ISC",
