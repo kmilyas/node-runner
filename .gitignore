@@ -1,0 +1,25 @@
+# (IDE) generated files #
+#######################
+.externalToolBuilders
+*.iml
+.idea
+*.ipr
+*.iws
+*.swp
+*.sublime-*
+
+# OS generated files #
+######################
+.DS_Store*
+
+# jasmine & karma artifacts #
+#############################
+spec-runner.html
+coverage/
+sonar/
+test-results.xml
+sonar-project.properties
+
+# node.js artifacts #
+node_modules/
+npm-debug.log

@@ -1,0 +1,23 @@
+{
+  "name": "node-runner",
+  "version": "1.0.0",
+  "description": "Node project to run process in parrallel",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-runner"
+  },
+  "author": "Ilyas Khawaja",
+  "license": "ISC",
+  "scripts": {
+    "reporting": "cd ../../projects/reporting-static/ && grunt work",
+    "payment": "cd ../../projects/payment-static/ && grunt work",
+    "start": "concurrent -k \"npm run payment\" \"npm run reporting\""
+  },
+  "dependencies": {
+    "concurrently": "^3.1.0"
+  }
+}
